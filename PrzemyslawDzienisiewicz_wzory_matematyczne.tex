@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage[a4paper,left=3.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage[MeX]{polski}
+\usepackage[cp1250]{inputenc}
+%%\usepackage{polski}
+%%\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{hyperref}
+\usepackage{makeidx}
+\usepackage[tableposition=top]{caption}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{multirow}
+\usepackage{amsmath} %pakiet matematyczny
+\usepackage{amssymb} %pakiet dodatkowych symboli
+\begin{document}
+
+
+Tu umieszczamy kod TeXa, ktory bedzie kompilowany, $a^2$ a suma $\sum_{i=0}^{\infty}{2^i}$
+
+\begin{displaymath}
+\sum_{1=0}^{\infty}{2^i}
+\end{displaymath}
+\begin{equation}
+\label{eq:iloczyn}
+\prod^{n=i^2}_{i=2}=\frac{\lim^{n\rightarrow4}(1+\frac{1}{n})^n}{\sum k (\frac{1}{n})}
+\end{equation}
+Na podstawie równania \ref{eq:iloczyn}
+\begin{equation}
+\left[
+\begin{array}{cccc}
+a_{11} & a_{12} & \ldots & a_{1K} \\
+a_{11} & a_{12} & \ldots & a_{2K} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{K1} & a_{K2} & \ldots & a_{KK} \\
+\end{array}
+\right]
+*
+\left[
+\begin{array}{c}
+x_1 \\
+x_2 \\
+\vdots \\
+x_K \\
+\end{array}
+\right]
+=
+\left[
+\begin{array}{c}
+b_1 \\
+b_2 \\
+\vdots \\
+b_K \\
+\end{array}
+\right]
+\end{equation}
+\begin{verbatim}
+for(int i=0;i<40;i++)
+ printf("Hello world");
+\end{verbatim}
+\begin{algorithmic}
+\FOR{i=0,1,$\ldots$,40}
+ \item{Wyœwietl napis "Hello World"}
+\ENDFOR
+\end{algorithmic}
+\begin{displaymath}
+[x]_{A}=\left\{{y}\in{U}:a(x)=a(y)},\forall{a}\in{A}\right\}, where~ the~ central~ object~ {x}\in{U}
+\end{displaymath}
+dodawaæ~ albo komende \quad albo dodac to \ to \ to
+\begin{displaymath}
+P$\Big( A=2|\frac{[A]^2}{B}>4 )$\\
+\end{displaymath}
+
+\end{document}
